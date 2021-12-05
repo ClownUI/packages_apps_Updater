@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.ClownUI.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -23,12 +23,12 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import org.json.JSONException;
-import org.lineageos.updater.controller.UpdaterController;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.ClownUI.updater.controller.UpdaterController;
+import org.ClownUI.updater.controller.UpdaterService;
+import org.ClownUI.updater.misc.Utils;
+import org.ClownUI.updater.model.Update;
+import org.ClownUI.updater.model.UpdateInfo;
+import org.ClownUI.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;
